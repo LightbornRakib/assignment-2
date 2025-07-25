@@ -329,16 +329,18 @@ h1{
 }
 
 body 
-{display: grid;
-    position: relative;
+{display: flex;
+    flex-direction: column;
+    
     width: 90%;
     margin-bottom: 40%;
-    margin-left:10%;
     
-div{
-    position: absolute;
+
+ 
+    
 }
-}
+
+
 .cards{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -370,27 +372,36 @@ div{
     width: 100%;
 }
 img.dimg{
-    width: 310%;
+    width: 285%;
 
 }
 img.dimg1
 {
-    width: 110%;
+    width: 100%;
 }
 .text{width: 200%;
     height: 100%;
     position: absolute;
-    left: 64%;
-    top: 20%;
+    left: 60%;
+    top: 17%;
     font-size: x-large;
 }
 .text1{width: 200%;
     height: 100%;
     position: absolute;
-    left: 60%;
+    left: 50%;
     top: 70%;
     font-size: x-large;
 }
+
+.text2{width: 200%;
+    height: 100%;
+    position: absolute;
+    left: -45%;
+    top: 40%;
+    font-size: x-large;
+}
+
 
 .colorful
 {
@@ -401,14 +412,31 @@ img.dimg1
 background-size: cover; /* Scales image to cover the div */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat;
-  width: 120%;
+  width: 110%;
+  height: 50%;
 
  margin-left: -5% ;
+ margin-top: 30%;
+ 
  
  
 }
 .class1{
-    margin-top: 60%;
+    margin-top: 40%;
+    width: 100%;
+    margin-right: 12%;
+
+}
+
+.class1 h2
+{
+    font-size: 200%;
+    text-align: center;
+}
+
+.class2{
+    width: 70%;
+    margin-left: -13%;
 }
 .div1 img
 {
@@ -417,7 +445,7 @@ background-size: cover; /* Scales image to cover the div */
 }
 footer
 {display: grid;
-    width: 100%;
+    width: 80%;
     gap: 5%;
     margin-top: 20%;
     
