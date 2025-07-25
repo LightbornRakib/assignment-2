@@ -344,12 +344,13 @@ body
  
     
 }
-html, body {
+ body {
     width: 96%;
 overflow-x: hidden;
     margin: 0;
     padding: 2%;
-
+height: auto;
+margin-bottom: 100px;
    
 }
 
