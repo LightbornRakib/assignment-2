@@ -50,10 +50,15 @@ gap: 2%;
  }
 p{
     font-size: 1.5rem;
+    color: rgb(99, 98, 98);
 }
 h1{
     font-size: 4rem;
 
+}
+
+.image p{
+    color: black;
 }
 
 h2{
@@ -297,7 +302,7 @@ footer
     gap: 20%;
 }
 
-@media screen and (max-width: 700px)
+@media screen and (max-width: 430px)
 {
 nav .light
 {
