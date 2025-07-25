@@ -1,0 +1,438 @@
+
+
+
+header{ margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+      margin-right: 5%;
+      font-size: 1.5rem;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+}
+ .fresh-flower{
+    margin-top: 20%;
+    display: flex;
+    justify-content: flex-end;
+    
+ }
+
+ .left
+ {
+width: 50%;
+
+
+ }
+ .right
+ { width: 50%;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .cards
+ { width: 100%;
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 2%;
+ }
+
+
+ img{
+    width: 100%;
+    
+ }
+ #one{
+    height: 10%;
+    width: 10%;
+ }
+p{
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 4rem;
+
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.our-plants
+{
+    display: block;
+    text-align: center;
+}
+
+.btn
+{
+    background-color:  #E95A08;
+    color: white;
+    border: none;
+    height: 10%;
+    width: 100%;
+}
+.image
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.spc
+{
+    position: absolute;
+
+
+    z-index: 10;
+    width: 40%;
+    bottom: 65%;
+    left: 73%;
+  
+   
+  
+   
+   
+
+}
+
+
+.lover
+{
+    width: 92vw;
+    display: flex;
+    margin-top: 40%;
+    height: 50vh; 
+
+   
+}
+.men
+{width: 50%;
+position: relative;
+overflow: visible;}
+
+.txt
+{
+   width:50%;
+   font-size: small;
+   
+   
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+.deals{
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.design
+{width: 100%;
+    display: flex;
+    gap: 2%;
+}
+
+.first
+{display: grid;
+    width: 35.32%;
+    gap: 2%;
+  position: relative;
+text-align: center;
+color: white;
+
+}
+
+.dimg, .dimg1
+{position: relative;
+    border-radius: 20px;
+  filter: brightness(60%);
+}
+
+
+.first img{
+    height: 90%;
+width: 100%;
+    
+}
+.text
+{
+    position: absolute;
+top: 22.5%;
+left: 29%;
+font-size: xx-large;
+
+}
+
+
+.text1
+{
+    position: absolute;
+top: 72.5%;
+left: 30%;
+
+font-size: xx-large;
+}
+
+.second
+{
+    position: relative;
+    text-align: center;
+color: white;
+}
+
+.text2
+{
+ position: absolute;
+top: 42.5%;
+left: 26%;
+font-size: xx-large;
+
+
+}
+
+
+input[type="email"] {
+  border: none;
+ 
+  padding: 2%;
+  width: 400px;
+}
+
+input[type="email"]:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  border: none;
+ 
+  padding: 2%;
+background-color: #E95A08;
+width: 0100px;
+color: white;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+.colorful
+{
+    display: grid;
+
+  background-image: url('asset/news-letter-bg.png');
+  
+
+  height: 500px;
+
+align-items: center;
+margin-top: 10%;
+place-items: center;
+ 
+ 
+}
+
+.colorful h2{
+    margin-top:0%;
+    color: white;
+}
+.class2
+{
+    display: flex;
+    margin-bottom: 15%;
+}
+
+.class1
+{
+    margin-top: 20%;
+}
+footer
+{width: 93%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 10%;
+ 
+}
+
+.div2
+{ 
+    display: inline-block;
+}
+
+.div1 {width:30% ;
+ 
+}
+
+.div1 img{
+
+    width: 40%;
+
+}
+
+.div4 img{
+    width: 30%;
+
+    
+}
+
+.div2, .div3
+{
+    margin-top: 0%;
+
+}
+
+.div4{
+    margin-right: 10%;
+    display: flex;
+    height: 10%;
+    gap: 20%;
+}
+
+@media screen and (max-width: 700px)
+{
+nav .light
+{
+    display: none;
+
+}
+#one{
+    width: 20%;
+}
+.fresh-flower
+{
+    display: flex;
+    flex-direction:column-reverse;
+
+}
+
+.right{
+    width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+  
+}
+
+.left
+{
+    width: 100%;
+}
+
+body 
+{
+    width: 90%;
+    margin-bottom: 40%;
+    margin-left:10%;
+    
+
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.lover{
+    width: 100%;
+    display: grid;
+}
+.spc{
+    position: absolute;
+    width: 40%;
+    bottom: 75%;
+    left: 73%;
+}
+
+.men,.txt{position: relative;
+    width:100%;
+}
+.deals{position: relative;
+    width: 100%;
+
+    margin-top: 70%;
+    display:grid;
+}
+
+.design{
+    display: grid;
+    width: 100%;
+}
+img.dimg{
+    width: 310%;
+
+}
+img.dimg1
+{
+    width: 110%;
+}
+.text{width: 200%;
+    height: 100%;
+    position: absolute;
+    left: 64%;
+    top: 20%;
+    font-size: x-large;
+}
+.text1{width: 200%;
+    height: 100%;
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    font-size: x-large;
+}
+
+.colorful
+{
+   
+
+  background-image: url('asset/news-letter-bg.png');
+  
+background-size: cover; /* Scales image to cover the div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  width: 120%;
+
+ margin-left: -5% ;
+ 
+ 
+}
+.class1{
+    margin-top: 60%;
+}
+.div1 img
+{
+    width:100%;
+  
+}
+footer
+{display: grid;
+    width: 100%;
+    gap: 5%;
+    margin-top: 20%;
+    
+}
+
+.div1, .div2, .div3, .div4
+{
+    width: 100%;
+}
+
+.div1 img
+{
+    width: 50%;
+}
+
+.div4 img
+{
+    width:10%;
+    height: 1000%;
+
+}
+}
+ 
